@@ -1,3 +1,45 @@
-.red{
-    color:red;
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.VEPWW{
+    height: 52px;
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 14px;
+}
+
+.petitmenu{
+    display: flex;
+}
+.parag{
+    margin-left: 15px;
+}
+.magasin{
+    display: flex;
+    align-items: center;
+}
+.NC{
+    border-left: white solid 1px;
+    width: 40px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10px;
+    height: 50%;
+}
+.parag2{
+    margin-left: 15px;
+}
+
+.drapeau{
+    display: flex;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
 }
