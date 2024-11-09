@@ -43,3 +43,10 @@ html, body {
     height: 23px;
     border-radius: 50%;
 }
+.divblanche{
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    justify-content: center;
+    height: 46px;
+}
