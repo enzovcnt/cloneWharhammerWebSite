@@ -123,7 +123,7 @@ html, body {
 .bjaune{
     height: 48px;
     width: 267px;
-    background-color: yellow;
+    background-color: #fbca1b;
     font-size: 12px;
     border-radius: 30px;
     border: none;
@@ -137,7 +137,7 @@ html, body {
     position: relative;
     right: -1700px;
     top: -90px;
-    background-color: yellow;
+    background-color: #fbca1b;
     border: none;
 }
 .main{
@@ -211,7 +211,7 @@ html, body {
 .bjauneESP{
     width: 143px;
     height: 40px;
-    background-color: yellow;
+    background-color: #fbca1b;
     text-transform: uppercase;
     border-radius: 30px;
     border: none;
@@ -223,4 +223,86 @@ html, body {
     width: 1343px;
     background-size: cover;
     background-position: center;
+}
+.fleches2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.petit2fleches{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flech1{
+    border: gray solid 1px;
+    border-radius: 50px;
+    justify-content: center;
+    display: flex;
+    rotate: 180deg;
+}
+.flech2{
+    border: gray solid 1px;
+    border-radius: 50px;
+    justify-content: center;
+    display: flex;
+}
+.carte4{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.carte{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border: gray solid 1px;
+    border-radius: 10px;
+}
+.carteimage{
+    display: flex;
+    justify-content: center;
+}
+.bascarte{
+    display: flex;
+    flex-direction: column;
+}
+.cartetexte{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+.carteprix{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.bjauneprix{
+    border: none;
+    background-color: #fbca1b;
+    border-radius: 50px;
+}
+.cartetexte1{
+    font-weight: bold;
+    font-size: 15px;
+}
+.cartetexte2{
+    color: gray;
+    font-size: 13px;
+}
+.choix{
+    display: flex;
+    justify-content: center;
+}
+.choix1{
+    background-color: black;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+.choix2{
+    background-color: #e2e2e2;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
 }
