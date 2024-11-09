@@ -57,15 +57,17 @@ html, body {
     width: 100%;
     align-items: center;
     text-transform: uppercase;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .first{
-    height: 982px;
+    height: 900px;
     display: flex;
     background-image: url("/home/enzo/cloneWharhammerWebSite/image/fond1warhammerhero.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .logo{
     height: 80px;
@@ -79,16 +81,62 @@ html, body {
     background: none;
     font-size: 25px;
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
 }
 .b1{
     border-radius: 10px;
     background-color: white;
     color: black;
     font-size: 20px;
+    text-transform: none;
+}
+.b2{
+    padding: 0;
 }
 .imgcompte{
     height: 24px;
     width: 24px;
+}
+.FCC{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+.underworld{
+    width: 224px;
+    height: 48px;
+}
+.FCC1{
+    font-size: 90px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.FCC2{
+    font-size: 20px;
+}
+.bjaune{
+    height: 48px;
+    width: 267px;
+    background-color: yellow;
+    font-size: 12px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.bjaunefleche{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    right: -1700px;
+    top: -90px;
+    background-color: yellow;
+    border: none;
 }
