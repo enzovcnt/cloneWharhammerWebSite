@@ -414,3 +414,53 @@ html, body {
     border-radius: 5px;
     font-size: 15px;
 }
+.fleche3{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.noir{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 36.99%)
+}
+.c3{
+    background-image: url("/home/enzo/cloneWharhammerWebSite/image/fondoldworld.png");
+}
+.grandeimage{
+    display: flex;
+    align-items: center;
+    background-image: url("/home/enzo/cloneWharhammerWebSite/image/40k_Universe_Backing.webp");
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.spacemarine{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 150px;
+}
+.logos5{
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    position: relative;
+    top: -270px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+.boutonbleu{
+    margin-top: 70px;
+}
+.opacité{
+    opacity: 0.5;
+}
