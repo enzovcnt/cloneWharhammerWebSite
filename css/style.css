@@ -440,7 +440,7 @@ html, body {
     justify-content: center;
     flex-direction: column;
     z-index: 1;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .logos5{
     display: flex;
@@ -455,12 +455,81 @@ html, body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     z-index: 2;
 }
 .boutonbleu{
     margin-top: 70px;
+    background-color: #467993;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
 }
 .opacité{
     opacity: 0.5;
+    align-items: center;
+}
+.flechelogo1{
+    background-color: #1c1c1c;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    rotate: 180deg;
+}
+.flechelogo2{
+    background-color: #1c1c1c;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.PC{
+    margin-bottom: 70px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.box4{
+    display: flex;
+    height: 90px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.carteboite2{
+    display: flex;
+    justify-content: space-between;
+    border: gray solid 1px;
+    border-radius: 10px;
+    width: 500px;
+    align-items: center;
+    padding: 20px;
+}
+.imgboite2{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+}
+.textcarteboite2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    font-size: 13px;
+}
+.tv{
+    text-transform: uppercase;
+    color: gray;
+}
+.w40{
+    font-weight: bold;
+}
+.VTQ{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 50px;
 }
