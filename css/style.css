@@ -216,6 +216,7 @@ html, body {
     border-radius: 30px;
     border: none;
     margin-top: 20px;
+    font-weight: bold;
 }
 .VCICW2{
     background-image: url("/home/enzo/cloneWharhammerWebSite/image/noëlwarhammer.webp");
@@ -257,7 +258,7 @@ html, body {
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
-    border: gray solid 1px;
+    border: #e2e2e2 solid 1px;
     border-radius: 10px;
 }
 .carteimage{
@@ -305,4 +306,111 @@ html, body {
     background-color: #e2e2e2;
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
+}
+.ADS{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+.ADStext{
+    font-weight: bolder;
+    font-size: 32px;
+}
+.ADSbutton{
+    background-color: white;
+    border-color: #e2e2e2;
+    border-radius: 50px;
+    font-size: 16px;
+}
+.RPM{
+    display: flex;
+    height: 300px;
+    border-radius: 20px;
+    border: gray solid 1px;
+    margin-bottom: 70px;
+}
+.RPM1{
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    height: 220px;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 40px;
+}
+.textRPM{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+.textRPM2{
+    line-height: 2;
+    margin-top: 20px;
+}
+.bjauneRPM{
+    width: 96px;
+    height: 40px;
+    background-color: #fbca1b;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.RPM2{
+    background-image: url("/home/enzo/cloneWharhammerWebSite/image/colis.webp");
+    height: 300px;
+    width: 1284px;
+    background-size: cover;
+    background-position: center;
+}
+.carte2{
+    background-image: url("/home/enzo/cloneWharhammerWebSite/image/sapcemarinebg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+.cartefonbleu{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #467993 36.99%);
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.bjaunecartefondbleu{
+    background-color: #fbca1b;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+}
+.cartefonbleutitre{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.cartefonbletexte{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 2;
+}
+.UEL{
+    background-color: #e2e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 15px;
 }
