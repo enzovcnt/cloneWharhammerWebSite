@@ -57,9 +57,8 @@ html, body {
     width: 100%;
     align-items: center;
     text-transform: uppercase;
-    padding-left: px;
-    padding-right: px;
     justify-content: space-between;
+    z-index: 2;
 }
 .first{
     height: 900px;
@@ -71,14 +70,15 @@ html, body {
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 30px;
+    z-index: 1;
 }
+
 .logo{
     height: 80px;
     width: 80px;
 }
 .bouton{
     display: flex;
-    height: 84px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -87,9 +87,8 @@ html, body {
     font-size: 20px;
     color: white;
     text-transform: uppercase;
-    flex: 1;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .b1{
     border-radius: 10px;
@@ -97,6 +96,7 @@ html, body {
     color: black;
     font-size: 20px;
     text-transform: none;
+    height: 84px;
 }
 .b2{
     padding: 0;
@@ -113,7 +113,6 @@ html, body {
     display: flex;
     flex-direction: column;
     width: 640px;
-    padding-left: 40px;
     margin-top: 20px;
 }
 .underworld{
@@ -667,7 +666,7 @@ html, body {
 }
 .social{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     margin-bottom: 150px;
@@ -736,4 +735,21 @@ html, body {
     margin-bottom: 40px;
     padding-left: 230px;
     font-size: 14px;
+}
+.RPM22{
+    background-image: url("/home/enzo/cloneWharhammerWebSite/image/RPM2.webp");
+}
+.library{
+    margin-bottom: 50px;
+    font-size: 30px;
+    padding-left: 15px;
+}
+.VCIW22{
+    background-image: url("/home/enzo/cloneWharhammerWebSite/image/necron.webp");
+}
+.PNE22{
+    background-image: url("/home/enzo/cloneWharhammerWebSite/image/deuxbougs.png");
+}
+.VMWL22{
+    background-image: url("/home/enzo/cloneWharhammerWebSite/image/sacoche.png");
 }
