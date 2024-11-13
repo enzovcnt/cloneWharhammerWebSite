@@ -538,6 +538,7 @@ html, body {
     display: flex;
     height: 460px;
     justify-content: space-between;
+    margin-bottom: 90px;
 }
 .VMWL{
     background-image: url("/home/enzo/cloneWharhammerWebSite/image/doubleVMWL.png");
@@ -585,4 +586,73 @@ html, body {
     justify-content: space-around;
     padding: 10px;
     padding-left: 20px;
+}
+.grandeboite{
+    height: 1085px;
+    background-image: url("/home/enzo/cloneWharhammerWebSite/image/WH__Feature_HiRes.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.titregrandeboite{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+.policeforte{
+    font-weight: bold;
+    font-size: 50px;
+}
+.textitre{
+    margin-top: 20px;
+}
+.bjaunegrandeboite{
+    background-color: #fbca1b;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    color: black;
+    margin-top: 30px;
+}
+
+.flou2{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.textflou{
+    display: flex;
+    align-items: center;
+}
+.espace{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.BL{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.textBL{
+    font-size: 35px;
+    font-weight: bold;
+}
+.TVb{
+    background-color: white;
+    border: solid 1px #e2e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
 }
