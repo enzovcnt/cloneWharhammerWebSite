@@ -57,8 +57,9 @@ html, body {
     width: 100%;
     align-items: center;
     text-transform: uppercase;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: px;
+    padding-right: px;
+    justify-content: space-between;
 }
 .first{
     height: 900px;
@@ -68,6 +69,8 @@ html, body {
     background-size: cover;
     flex-direction: column;
     justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .logo{
     height: 80px;
@@ -77,13 +80,16 @@ html, body {
     display: flex;
     height: 84px;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     border: none;
     background: none;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
     text-transform: uppercase;
+    flex: 1;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .b1{
     border-radius: 10px;
@@ -94,6 +100,9 @@ html, body {
 }
 .b2{
     padding: 0;
+    display: flex;
+    justify-content: flex-start;
+
 }
 .imgcompte{
     height: 24px;
