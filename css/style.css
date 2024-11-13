@@ -656,3 +656,75 @@ html, body {
     justify-content: center;
     border-radius: 50px;
 }
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+.liste{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 50px;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-right: 10px;
+}
+.email{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: #e2e2e2;
+    border-radius: 15px;
+}
+.boutonfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2e2e2;
+    border-radius: 50px;
+}
+.textsub{
+    line-height: 2;
+}
+.privacy{
+    color: blue;
+    text-decoration: underline;
+}
+.assistance{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.plus{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sujet{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titref{
+    letter-spacing: 5px;
+    color: grey;
+    font-size: 15px;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-left: 230px;
+    font-size: 14px;
+}
