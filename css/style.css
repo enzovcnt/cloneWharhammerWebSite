@@ -63,7 +63,7 @@ html, body {
 .first{
     height: 900px;
     display: flex;
-    background-image: url("/home/enzo/cloneWharhammerWebSite/image/fond1warhammerhero.webp");
+    background-image: url("https://enzovcnt.github.io/cloneWharhammerWebSite/image/fond1warhammerhero.webp");
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
