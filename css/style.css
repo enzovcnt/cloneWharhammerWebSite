@@ -227,7 +227,7 @@ html, body {
     font-weight: bold;
 }
 .VCICW2{
-    background-image: url("/home/enzo/cloneWharhammerWebSite/image/noëlwarhammer.webp");
+    background-image: url("https://enzovcnt.github.io/cloneWharhammerWebSite/image/noëlwarhammer.webp");
     height: 580px;
     width: 1343px;
     background-size: cover;
@@ -369,14 +369,14 @@ html, body {
     font-weight: bold;
 }
 .RPM2{
-    background-image: url("/home/enzo/cloneWharhammerWebSite/image/colis.webp");
+    background-image: url("https://enzovcnt.github.io/cloneWharhammerWebSite/image/colis.webp");
     height: 300px;
     width: 1284px;
     background-size: cover;
     background-position: center;
 }
 .carte2{
-    background-image: url("/home/enzo/cloneWharhammerWebSite/image/sapcemarinebg.png");
+    background-image: url("https://enzovcnt.github.io/cloneWharhammerWebSite/image/sapcemarinebg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -430,12 +430,12 @@ html, body {
     background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 36.99%)
 }
 .c3{
-    background-image: url("/home/enzo/cloneWharhammerWebSite/image/fondoldworld.png");
+    background-image: url("https://enzovcnt.github.io/cloneWharhammerWebSite/image/fondoldworld.png");
 }
 .grandeimage{
     display: flex;
     align-items: center;
-    background-image: url("/home/enzo/cloneWharhammerWebSite/image/40k_Universe_Backing.webp");
+    background-image: url("https://enzovcnt.github.io/cloneWharhammerWebSite/image/40k_Universe_Backing.webp");
     flex-direction: column;
     background-position: center;
     background-repeat: no-repeat;
@@ -549,7 +549,7 @@ html, body {
     margin-bottom: 90px;
 }
 .VMWL{
-    background-image: url("/home/enzo/cloneWharhammerWebSite/image/doubleVMWL.png");
+    background-image: url("https://enzovcnt.github.io/cloneWharhammerWebSite/image/doubleVMWL.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -559,7 +559,7 @@ html, body {
     align-items: flex-end;
 }
 .PNE{
-    background-image: url("/home/enzo/cloneWharhammerWebSite/image/doublePNE.png");
+    background-image: url("https://enzovcnt.github.io/cloneWharhammerWebSite/image/doublePNE.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -597,7 +597,7 @@ html, body {
 }
 .grandeboite{
     height: 1085px;
-    background-image: url("/home/enzo/cloneWharhammerWebSite/image/WH__Feature_HiRes.webp");
+    background-image: url("https://enzovcnt.github.io/cloneWharhammerWebSite/image/WH__Feature_HiRes.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -737,7 +737,7 @@ html, body {
     font-size: 14px;
 }
 .RPM22{
-    background-image: url("/home/enzo/cloneWharhammerWebSite/image/RPM2.webp");
+    background-image: url("https://enzovcnt.github.io/cloneWharhammerWebSite/image/RPM2.webp");
 }
 .library{
     margin-bottom: 50px;
@@ -745,11 +745,11 @@ html, body {
     padding-left: 15px;
 }
 .VCIW22{
-    background-image: url("/home/enzo/cloneWharhammerWebSite/image/necron.webp");
+    background-image: url("https://enzovcnt.github.io/cloneWharhammerWebSite/image/necron.webp");
 }
 .PNE22{
-    background-image: url("/home/enzo/cloneWharhammerWebSite/image/deuxbougs.png");
+    background-image: url("https://enzovcnt.github.io/cloneWharhammerWebSite/image/deuxbougs.png");
 }
 .VMWL22{
-    background-image: url("/home/enzo/cloneWharhammerWebSite/image/sacoche.png");
+    background-image: url("https://enzovcnt.github.io/cloneWharhammerWebSite/image/sacoche.png");
 }
